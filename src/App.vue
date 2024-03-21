@@ -1,15 +1,24 @@
 <template>
-  
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <middleSection/>
+  <headerApp/>
+  <testApp/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import middleSection from './components/middleSection.vue'
+//import headerApp from './components/headerApp.vue'
+import testApp from './components/testApp.vue'
+
+
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    //middleSection,
+    //headerApp,
+    testApp
+
   }
 }
 </script>

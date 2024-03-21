@@ -1,39 +1,5 @@
 <template>
   <div class="container">
-    <header class="header">
-      <div class="header__inner">
-        <h1 class="header__title header-title">
-            SHINSHUCOFFEE
-        </h1>
-
-  <div>
-    <!-- ここにコンポーネントのHTMLを追加 -->
-    <nav class="header__nav nav" id="js-nav">
-          <ul class="nav__items nav-items">
-            <li class="nav-items__item"><a href="">ホーム</a></li>
-            <li class="nav-items__item"><a href="">オンラインショップ</a></li>
-            <li class="nav-items__item"><a href="">ログイン</a></li>
-            <li class="nav-items__item"><a href="">お問い合わせ</a></li>
-          </ul>
-        </nav>
-
-    <!-- ハンバーガーボタン -->
-    <div id="js-hamburger" @click="toggleMenu" :class="{ active: isHamburgerActive }">
-      <!-- ここにハンバーガーボタンの内容を追加 -->
-    </div>
-
-    <!-- ナビゲーションメニュー -->
-    <div id="js-nav" :class="{ active: isNavActive }">
-      <!-- ここにナビゲーションメニューの内容を追加 -->
-    </div>
-  </div>
-          <button class="header__hamburger hamburger" id="js-hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
-    </header>
     <main>
     <!--   home   -->
       <div id= "home" class= "big-bg"><!--大きな画像-->
